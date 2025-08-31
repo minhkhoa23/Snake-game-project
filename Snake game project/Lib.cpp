@@ -68,3 +68,8 @@ int inputKey()
 
 	return KEY_NONE;
 }
+
+void setColor(int n) {
+	HANDLE color = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleTextAttribute(color, n);
+}

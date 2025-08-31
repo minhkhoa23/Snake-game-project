@@ -130,12 +130,21 @@
     <ClCompile Include="consoleSetting.cpp" />
     <ClCompile Include="Lib.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Play.cpp" />
+    <ClCompile Include="PlayerBoard.cpp" />
     <ClCompile Include="Snake.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="consoleSetting.h" />
     <ClInclude Include="lib.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Play.h" />
+    <ClInclude Include="PlayerBoard.h" />
     <ClInclude Include="Snake.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Player.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
